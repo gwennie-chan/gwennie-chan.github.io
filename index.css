@@ -44,6 +44,9 @@ body:hover{
     text-decoration:none;
     color:inherit;
 }
+#main #nav span a:focus {
+    outline:0;
+}
 .unselectable {
     -moz-user-select: none;
     -o-user-select: none;

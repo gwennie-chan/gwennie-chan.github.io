@@ -44,6 +44,9 @@ body:hover{
     text-decoration:none;
     color:inherit;
 }
+#main-alt #nav span a:focus {
+    outline:0;
+}
 #contents {
     width:50%;
     margin: 10px auto;
@@ -53,6 +56,10 @@ body:hover{
     border-radius:20px;
     border:5px solid lightsteelblue;
     display:table;
+    font-family: 'Bree Serif', serif;
+}
+#contents p:first-child {
+    margin-top:10px;
 }
 .unselectable {
     -moz-user-select: none;
